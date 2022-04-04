@@ -15,12 +15,13 @@ function Feed() {
       <TweetBox />
 
       {/* Post */}
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+      <Post 
+        displayName="Gaurav Agarwal"
+        userName="gauravagarwal"
+        verified={true}
+        text="Hello World"
+        avatar=""
+        image="" />
     </div>
   );
 }
